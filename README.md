@@ -1,44 +1,44 @@
-# Link Double Click Preview
+# 链接双击预览 (Link Double Click Preview)
 
-An Obsidian plugin that shows a note preview popup when you double-click (or long-press on mobile) a link.
+在 Obsidian 中双击（手机端长按）链接即可预览笔记内容的插件。
 
-## Features
+## 功能
 
-- **Double-click** any internal or external link to preview the linked note
-- **Long-press** on mobile to trigger preview
-- **Preview modes**: Floating popover near the link, or centered modal
-- **Draggable**: Drag the popup by clicking anywhere on it
-- **Document properties**: Shows frontmatter properties (collapsible) at the top of the preview
-- **Works in**: Reading mode and Live Preview mode
-- **External links**: Clickable URL displayed in the preview
-- **Settings**: Customizable popup width, height, and display location
+- **双击**任意内部或外部链接，弹出预览窗口
+- **长按**手机端触发预览
+- **两种弹窗模式**：链接附近的浮窗，或屏幕居中的模态框
+- **可拖动**：点击弹窗任意位置即可拖动
+- **文档属性**：弹窗顶部显示笔记的前置属性（可折叠）
+- **支持阅读模式与实时预览模式**
+- **外部链接**：弹窗内显示可点击的 URL
+- **可配置**：弹窗位置、宽度、最大高度
 
-## Usage
+## 使用方法
 
-1. Install the plugin via Obsidian Community Plugins or [BRAT](https://github.com/TfTHacker/obsidian42-brat)
-2. Go to **Settings → Link Double Click Preview** to configure
-3. **Double-click** any link to preview its content
-4. Click the **×** button or click outside to close
+1. 安装插件（见下方安装方式）
+2. 进入 **设置 → 链接双击预览** 调整配置
+3. **双击**任意链接即可预览内容
+4. 点击 **×** 按钮或弹窗外区域关闭
 
-## Settings
+## 设置项
 
-| Setting | Description |
-|---------|-------------|
-| 弹窗位置 (Popup location) | Popover (near link) or Modal (centered) |
-| 弹窗宽度 (Popup width) | Width in pixels |
-| 弹窗最大高度 (Popup max height) | Maximum height in pixels |
+| 设置 | 说明 |
+|------|------|
+| 弹窗位置 | 浮窗（链接附近）或模态框（屏幕居中） |
+| 弹窗宽度 | 宽度（像素） |
+| 弹窗最大高度 | 最大高度（像素） |
 
-## Installation
+## 安装
 
-### From Obsidian Community Plugins
-Search for "Link Double Click Preview" in **Settings → Community Plugins → Browse**.
+### 从社区插件安装
+在 **设置 → 社区插件 → 浏览** 中搜索 "Link Double Click Preview"。
 
-### Manual
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/lilibushilicc/obsidian-link-double-click-preview/releases)
-2. Copy them to `{your-vault}/.obsidian/plugins/double-click-preview/`
-3. Enable the plugin in Obsidian settings
+### 手动安装
+1. 从 [最新发布页](https://github.com/lilibushilicc/obsidian-link-double-click-preview/releases) 下载 `obsidian-link-double-click-preview.zip`
+2. 解压到 `你的笔记库/.obsidian/plugins/double-click-preview/`
+3. 在 Obsidian 设置中启用插件
 
-## Development
+## 开发
 
 ```bash
 git clone https://github.com/lilibushilicc/obsidian-link-double-click-preview
@@ -47,6 +47,6 @@ pnpm install
 pnpm build
 ```
 
-## License
+## 许可证
 
 MIT
