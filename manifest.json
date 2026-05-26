@@ -1,0 +1,10 @@
+{
+  "id": "double-click-preview",
+  "name": "Link Double Click Preview",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Double-click or long-press links to preview note content in a popup",
+  "author": "lilibushilicc",
+  "authorUrl": "https://github.com/lilibushilicc",
+  "isDesktopOnly": false
+}
